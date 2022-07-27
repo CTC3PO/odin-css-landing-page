@@ -1,12 +1,10 @@
 
 body {
     height:100vh;
-    width:auto;
+    width:1000;
     margin:0;
-    padding: 40px;
-    font-size:16px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 .main-structure {
@@ -18,21 +16,21 @@ body {
         
 }
 
-.header1, .intro {    
-    padding: 80px;px;
+.header1, .intro {        
     background: black;
     color:white;    
 }
 
 .intro {
     margin-bottom:10px;
+    padding:80px;
 }
 
 .header1 {  
     display:flex;
+    padding: 10px 80px;
     justify-content: space-between;
-    align-items: center;   
-    
+    align-items: center;       
 }
 
 .logo, .action-text {
@@ -65,28 +63,29 @@ body {
 
 .intro-text {
     font-size: 48px;
+    font-weight:bold;
 }
 
 .button-signup-top, .button-signup-bottom  {
     box-sizing:border-box;
-    line-height: 30px;
-    border:#1f2937;
+    line-height: 30px;  
     border-radius:8px;
     background: #3882f6;
     width:100px;
     height:30px;
     color:white;
-    text-align: center;     
+    text-align: center;    
+    font-weight:bold; 
 }
 
 .image-box {
+    width: 500px;
+    height: 250px;
     box-sizing: border-box;
-    line-height:200px;
-    width: 350px;
-    height: 200px;
-    background:gray;
+    line-height:250px;
+    background: slategray;
     color:white;
-    text-align: center;
+    text-align: center;  
 }
 
 .information {
@@ -110,17 +109,16 @@ body {
     flex-direction:column;
     align-items: center;
     justify-content: space-evenly;  
-
 }
 
 .box  {
     flex:1;
     box-sizing: border-box;
-    line-height:100px;
-    width: 100px;
-    height: 100px;
-    background:#3882f6;;
-    border-radius: 8px;
+    line-height:150px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 16px;
     color:white;
     text-align: center;    
 }
@@ -142,6 +140,7 @@ body {
 
 .caption-1 {
     text-align: center;
+    color:slategray;
 }
 
 .quote {
@@ -155,8 +154,9 @@ body {
 
 .quote-text {
     font-size: 36px;
-    font-weight:light;
-    color:#1f2937;
+    font-weight:100;
+    color:#1F2937;
+    font-style:italic;
 }
 
 .quote-signature {
@@ -168,34 +168,36 @@ body {
     margin:80px;
     padding: 50px;
     border:none;
-    border-radius:8px;
+    border-radius:16px;
     background:#3882f6;
     color:white;
     display:flex;
     justify-content:space-between;
-
+    gap:16px;
 }
 
 .button-signup-bottom {
     border:white;
     border-width: 2px;
+    border: 1px solid white;
+    text-align: center;
 }
 
 .footer {
     background: #1f2937;
-    height:50px;
+    height:40px;
     margin-top:40px;
     padding: 8px 16px;    
     color:white;
     display:flex;
     justify-content:center;
     align-items:center;
-    gap: 20px;px;
+    gap: 10px;
 }
 
 a {
     text-decoration: none;
-    color:gray
+    color:white;    
 }
 
 
